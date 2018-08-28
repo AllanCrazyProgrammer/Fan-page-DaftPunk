@@ -1,0 +1,32 @@
+@font-face{
+    font-family: "daftfont";
+    src: url("css/fonts/daftFont.TTF")
+}
+
+html{
+    
+}
+
+body{
+    background-color: black
+}
+
+body h2 {
+    color: gold;
+    font-family: cursive
+}
+
+h1.title{
+    font-style: oblique;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "daftfont", cursive;
+}
+
+h1, h2, h3, p, a, table{
+    color: white
+}
+
+hr{
+    color: gold;
+}
