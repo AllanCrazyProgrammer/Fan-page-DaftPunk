@@ -3,9 +3,10 @@
     src: url("css/fonts/daftFont.TTF")
 }
 
-body{
-    background-image: url("daftWallpaper.jpg");
-    /* background-color: black; */
+body, html{
+    height: 100%;
+    background-color: black;
+    
 
 }
 
@@ -41,6 +42,11 @@ img {
     width: 250px;
     height: 250px;
     border: 1.5px solid gold;
+}
+
+.row{
+    width: 100%;
+    display: flex;
 }
 
 
