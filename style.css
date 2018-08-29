@@ -3,30 +3,50 @@
     src: url("css/fonts/daftFont.TTF")
 }
 
-html{
-    
-}
-
 body{
-    background-color: black
+    background-image: url("daftWp,jpg")
 }
 
 body h2 {
     color: gold;
-    font-family: cursive
 }
 
 h1.title{
     font-style: oblique;
     text-align: center;
     font-size: 2.5em;
-    font-family: "daftfont", cursive;
+    font-family: "daftfont";
 }
 
 h1, h2, h3, p, a, table{
-    color: white
+    color: white;
+    font-family: "Orbitron";
 }
 
 hr{
     color: gold;
 }
+
+img { 
+    max-width: 100%;
+    height: auto;
+    /* margin: auto;
+    display: block; */
+    margin: 50px;
+}
+.daftImage {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 1.5px solid gold;
+}
+
+
+/* margin crea espacio afuera de un element y padding crea espacio dentro de un element */
+/* button{
+    color: white;
+    font-family: "Orbitron";
+    background-color: black;
+    padding: 20px;
+    
+} */
