@@ -4,11 +4,13 @@
 }
 
 body{
-    background-image: url("daftWp,jpg")
+    background-image: url("daftWallpaper.jpg");
+    /* background-color: black; */
+
 }
 
 body h2 {
-    color: gold;
+    color: gold;    
 }
 
 h1.title{
