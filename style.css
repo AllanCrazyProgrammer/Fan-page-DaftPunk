@@ -31,24 +31,25 @@ hr{
 }
 
 img { 
-    max-width: 100%;
-    height: auto;
-    /* margin: auto;
-    display: block; */
-    margin: 50px;
+    /* max-width: 100%;
+    height: auto; */
+    width: 175px;
+    height: 175px;  
+    float: right;
 }
+
 .daftImage {
     border-radius: 50%;
     width: 250px;
     height: 250px;
     border: 1.5px solid gold;
+    float: none;
 }
 
 .row{
     width: 100%;
     display: flex;
 }
-
 
 /* margin crea espacio afuera de un element y padding crea espacio dentro de un element */
 /* button{
@@ -58,3 +59,7 @@ img {
     padding: 20px;
     
 } */
+
+.column{
+    float: left;
+}
