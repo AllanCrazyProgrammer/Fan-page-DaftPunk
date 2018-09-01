@@ -6,8 +6,6 @@
 body, html{
     height: 100%;
     background-color: black;
-    
-
 }
 
 body h2 {
@@ -15,7 +13,7 @@ body h2 {
 }
 
 h1.title{
-    font-style: oblique;
+    font-style: obsslique;
     text-align: center;
     font-size: 2.5em;
     font-family: "daftfont";
