@@ -22,17 +22,20 @@ h1.title{
 h1, h2, h3, p, a, table{
     color: white;
     font-family: "Orbitron";
+    text-decoration: none;
 }
 
 hr{
     color: gold;
 }
 
-img { 
+.textImage { 
     /* max-width: 100%;
     height: auto; */
-    width: 175px;
-    height: 175px;  
+    width: 200px;
+    height: 200px;  
+    position: relative;
+    top: -80px;
     float: right;
 }
 
@@ -60,4 +63,13 @@ img {
 
 .column{
     float: left;
+    width: 12.5%;
+    padding: 1px;
+
+}
+
+.albumsColumn{
+    float: left;
+    width: 25%;
+    padding: 1px;
 }
