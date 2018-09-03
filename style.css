@@ -43,8 +43,13 @@ ul.topnav li a{
     font-size: 1.5em;
 }
 
-ul.topnac li a:hover{
+ul.topnav li a:hover{
     background-color: silver;
+    color: black;
+}
+
+ul.topnav li.dropdownIcon{
+    display: none;
 }
 
 body h2 {
@@ -111,4 +116,11 @@ hr{
     float: left;
     width: 25%;
     padding: 1px;
+}
+
+/* ############MOBILE############# */
+@media screen and (max-width: 680px){
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+    }
 }
