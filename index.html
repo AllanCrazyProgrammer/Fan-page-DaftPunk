@@ -15,14 +15,29 @@
     <hr>
 
     <nav>
-        <ul class="topnav">
+        <ul class="topnav" id="dropdownClick">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="albums.html">Albums</a></li>
             <li><a href="#fotos">Fotos</a></li>
             <li class="topnav-right"><a href="http://codigopelirrojo.com/" target="_blank">Contactame</a></li>
-            <li class="dropdownIcon"><a href="">&#9776;</a></li>
+            <li class="dropdownIcon"><a href="javascript::void(0);" onclick="dropdownMenu()">&#9776;</a></li>
         </ul>      
     </nav>
+
+    <script>
+        function dropdownMenu(){
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+                // change topnav to topnav.responsive
+            }else{
+                x.className = "topnav";
+            }
+        }
+    
+    
+    </script>
+
     
     <hr>
 
