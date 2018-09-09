@@ -1,0 +1,142 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <title>A Daft Punk Fanpage</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Daft Punk</h1>
+
+    <hr>
+
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="albums.html">Albums</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li class="topnav-right"><a href="http://codigopelirrojo.com/" target="_blank">Contactame</a></li>
+            <li class="dropdownIcon"><a href="javascript::void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>      
+    </nav>
+
+    <script>
+        function dropdownMenu(){
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+                // change topnav to topnav.responsive
+            }else{
+                x.className = "topnav";
+            }
+        }
+    
+    
+    </script>
+
+    <hr>
+
+
+    <div>
+        <img src="https://is5-ssl.mzstatic.com/image/thumb/Music2/v4/52/aa/50/52aa5008-4934-0c27-a08d-8ebd7d13c030/886443919266.jpg/268x0w.jpg" class="daftImage" alt="Daft Punk grammy">
+    </div>
+    
+    <ol>
+        <li><a href="#Biografia">Biografia</a></li>
+        <li><a href="#Albums">Albums</a></li>
+        <li><a href="#Videos">Videos</a></li>
+        <li><a href="https://es-la.facebook.com/daftpunk/" target="_blank">Pagina Oficial de facebook</a></li>
+    </ol>
+
+    <div id="Biografia">
+      <h2>Biografia</h2>
+      <p><img src="https://img00.deviantart.net/eecc/i/2012/347/8/e/daft_punk_black_background_by_the_mooinator-d5nt3ns.jpg" class="textImage"> Punk, es un grupo de musica electronica pioneros en su genero, French House.
+         Ellos han logrado revoilucionar el mundo de la musica electronia, cambiando de genero a lo largo de las decadas,
+         desde un estilo clasico y curdo hasta llegar aser los responsables de el offcial soundtrack de Tron.</p>
+    </div>
+
+    <div id="Albums">
+        <h2>Albums</h2>
+        <table border="1"  style="width: 50%;"  >
+            <tr>
+                <th>Album</th>
+                <th>Año</th>
+                <th>Canción popular</th>
+            </tr>
+            <tr>
+                <td>Homework</td>
+                <td>1997</td>
+                <td>Around The World</td>
+            </tr>
+            <tr>
+                <td>Discovery</td>
+                <td>2001</td>
+                <td>One More Time</td>
+            </tr>
+            <tr>
+                <td>Human After All</td>
+                <td>2005</td>
+                <td>Technologic</td>
+            </tr>
+            <tr>
+                <td>Random Access Memories</td>
+                <td>2013</td>
+                <td>Get Lucky</td>
+            </tr>
+        </table>
+         
+    </div>
+
+    <div id="Videos">
+        <h2>Videos</h2>
+        <h3>One More Time</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n6RTF4OPzf8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+        <h3>Around The World</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yca6UsllwYs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="rows">
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column"></div>   
+    </div>
+    <hr>
+    <div class="container" id="section-1-gradient">
+            <div class="row">
+                <div class="half-col">
+                    <div class="leftside-col">
+                        <h1 class="large">Subscribite</h1>
+                        <h1 class="large">a las ultimas</h1>
+                        <h1 class="large">noticias</h1>
+                    </div>
+                    <form>
+                        <div class="leftside-col">
+                            <h2>Nombre de Usuario</h2>
+                            <input class="inputbox" name="nombre de usuario" type="text" placeholder="Escribe tu nombre de usuario">
+                            <h2>Correo</h2>
+                            <input class="inputbox" name="correo:" type="text" placeholder="Escribe tu correo">
+                        </div>
+                    </form>
+                </div>
+                <div class="half-col">
+                    <div class="rightside-col">
+                        <div class="videoContainer">
+                        <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/e1nwyyuDCsA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                        </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    
+</body>
+</html>
