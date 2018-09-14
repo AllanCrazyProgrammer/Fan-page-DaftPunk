@@ -98,13 +98,12 @@ hr{
 }
 
 .textImage { 
-    /* max-width: 100%;
-    height: auto; */
+    display: block;
+    margin: auto;
     width: 200px;
     height: 200px;  
-    position: relative;
-    top: -80px;
-    float: right;
+    box-shadow: 2px 2px 20px darkgray;
+    border-radius: 50%;
 }
 
 .daftImage {
@@ -128,8 +127,20 @@ hr{
     content: "";
 }
 
+
+/*#################COLUMNS############*/
 .half-col{
     width: 50%
+}
+
+.articleColumn{
+    float: left;
+    width: 75%;
+}
+
+.articleImageColumn{
+    float: left;
+    width: 25%;
 }
 
 .column{
@@ -148,7 +159,13 @@ hr{
     float: left;
     width: 100%;
 }
-    
+
+.fourColumn{
+    float: left;
+    width: 25%;
+}
+/*#################COLUMNS############*/
+
 *{
     box-sizing: border-box;
 }
@@ -223,6 +240,21 @@ button.aprendeMas{
     margin: auto;
 }
 
+footer.footerOne{
+    padding-left: 10%;
+}
+
+footer.footerOne ul{
+    color: white;
+    font-family: "Orbitron";
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    line-height: 1.5;
+
+}
+
 
 /* ############MOBILE############# */
 @media screen and (max-width: 680px){
@@ -256,9 +288,23 @@ button.aprendeMas{
 
     }
 
-    .half-col,.thirdsColumn{
+    .half-col,
+    .thirdsColumn,
+    .articleColumn,
+    .articleImageColumn,
+    .tables
+    {
         width: 100%;
         margin: 0;
+        overflow: hidden;
+    }
+
+    .textImage{
+        width: 100%
+    }
+
+    article p{
+        font-size: 15px;
     }
 
     div.box{
@@ -270,6 +316,15 @@ button.aprendeMas{
     div.rightside-col {
         margin: 15px;
     }
+
+    div.mobileColumn{
+        display: block;
+        width: 50%;
+    }
+
+    footer.footerOne h2{
+        padding-right: 10%;
+    }
    
     input[type="text"]{
         width: 300px;
@@ -280,5 +335,9 @@ button.aprendeMas{
         width: 100%;
         margin: 0;
         overflow: hidden;
+    }
+
+    div.leftside-col h1{
+        font-size: 35px;
     }
 }
